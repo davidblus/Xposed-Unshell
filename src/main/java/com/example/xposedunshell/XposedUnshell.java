@@ -34,6 +34,7 @@ public class XposedUnshell implements IXposedHookLoadPackage {
                 Object dexObject = param.thisObject;
                 ByteBuffer data = (ByteBuffer) getObjectField(dexObject, "data");
                 Log.i(TAG, "Dex.data:" + data.toString());
+//                new Exception().printStackTrace();
 
                 String filePath = "/data/data/" + packageName + "/";
                 write(filePath + dexIndex, data);
