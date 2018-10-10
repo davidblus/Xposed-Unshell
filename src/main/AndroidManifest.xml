@@ -14,7 +14,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Xposed DexFile loadDex 脱壳" />
+            android:value="Xposed Dex构造函数 脱壳" />
         <meta-data
             android:name="xposedminversion"
             android:value="53" />
